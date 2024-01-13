@@ -1,0 +1,77 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Merriweather:wght@400;700;900&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Work Sans', sans-serif;
+}
+header{
+    background-color: rgba(255, 144, 14, 0.10);
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+}
+nav h3{
+    color: var(--Dark-01, #131313);
+text-align: center;
+font-family: 'Work Sans';
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.nav-list{
+    display: flex;
+
+}
+.nav-list >li{ 
+    list-style: none;
+    margin-right: 35px;
+    
+}
+
+.nav-list >li a{
+    text-decoration: none;
+    color: var(--Dark-02, #424242);
+text-align: center;
+font-family: 'Work Sans';
+font-size: 18px;
+
+font-weight: 500;
+line-height: 26px; /* 144.444% */
+}
+.contenar-txt{
+
+    width: 862px;
+   
+    margin: auto;
+}
+.contenar-txt h2{
+
+    color: var(--Dark-01, #131313);
+text-align: center;
+font-family: 'Work Sans';
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.contenar-txt p{
+    height: 52px;
+    color: var(--Dark-03, #727272);
+text-align: center;
+font-family: 'Work Sans';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
